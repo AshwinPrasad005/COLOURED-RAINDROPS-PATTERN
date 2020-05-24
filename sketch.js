@@ -1,9 +1,12 @@
+var raindrop1;
+
 function setup() {
-  createCanvas(800,400);
-  createSprite(400, 200, 50, 50);
+  createCanvas(400,400);
+  raindrop1 = new Raindrops(50,50,10,70);
 }
 
 function draw() {
-  background(255,255,255);  
+  background(80,80,80);  
   drawSprites();
+  raindrop1.display();
 }
