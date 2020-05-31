@@ -8,12 +8,12 @@ class Raindrops{
        this.height = height
     }
     display(){
-        var angle = this.body.angle
+        var angle = this.body.angle;
         pop();
         translate(this.body.position.x,this.body.position.y);
         rotate(angle);
         rectMode(CENTER)
-        rect(this.body,this.body.position.x,this.body.position.y,width,height);
+        rect(this.body.position.x,this.body.position.y,width,height);
         push();
     }
 }
