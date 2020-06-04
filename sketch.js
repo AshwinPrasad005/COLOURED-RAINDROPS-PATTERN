@@ -10,13 +10,29 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
   raindrop1 = new GreenRaindrops(50,50,10,70);
+  raindrop1.x = random(200,200);
+  raindrop1.y = random(200,200);
   raindrop2 = new RedRaindrops(50,150,10,70);
+  raindrop2.x = random(200,200);
+  raindrop2.y = random(200,200);
   raindrop3 = new BlueRaindrops(50,250,10,70);
+  raindrop3.x = random(200,200);
+  raindrop3.y = random(200,200);
   raindrop4 = new OrangeRaindrops(50,350,10,70);
+  raindrop4.x = random(200,200);
+  raindrop4.y = random(200,200);
   raindrop5 = new GreenRaindrops(100,50,10,70);
+  raindrop5.x = random(200,200);
+  raindrop5.y = random(200,200);
   raindrop6 = new RedRaindrops(100,150,10,70);
+  raindrop6.x = random(200,200);
+  raindrop6.y = random(200,200);
   raindrop7 = new BlueRaindrops(100,250,10,70);
+  raindrop7.x = random(200,200);
+  raindrop7.y = random(200,200);
   raindrop8 = new OrangeRaindrops(100,350,10,70);
+  raindrop8.x = random(200,200);
+  raindrop8.y = random(200,200);
 }
 
 function draw() {

@@ -3,4 +3,7 @@ class OrangeRaindrops extends Raindrops{
         super(x,y,width,height);
         fill("orange");
     }
+    display(){
+        super.display();
+    }
 };
