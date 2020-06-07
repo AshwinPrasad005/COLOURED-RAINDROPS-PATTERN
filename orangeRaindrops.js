@@ -2,7 +2,7 @@ class OrangeRaindrops extends Raindrops{
     constructor(x,y,width,height){
          super(x,y,width,height);
         // fill("orange");
-        this.image = loadImage("birds_PNG93.png");
+        this.image = loadImage("699840-icon-37-raindrop-512.png");
     }
     display(){
         //super.display();
