@@ -9,30 +9,14 @@ function setup() {
   var canvas = createCanvas(800,800);
   engine = Engine.create();
   world = engine.world;
-  raindrop1 = new GreenRaindrops(0,0,1,1);
-  raindrop1.x = random(50,750);
-  raindrop1.y = random(50,750);
-  raindrop2 = new RedRaindrops(0,0,1,1);
-  raindrop2.x = random();
-  raindrop2.y = random(50,750);
-  raindrop3 = new BlueRaindrops(0,0,1,1);
-  raindrop3.x = random(50,750);
-  raindrop3.y = random(50,750);
-  raindrop4 = new OrangeRaindrops(0,0,1,1);
-  raindrop4.x = random(50,750);
-  raindrop4.y = random(50,750);
-  raindrop5 = new GreenRaindrops(0,0,1,1);
-  raindrop5.x = random(50,750);
-  raindrop5.y = random(50,750);
-  raindrop6 = new RedRaindrops(0,0,1,1);
-  raindrop6.x = random(50,750);
-  raindrop6.y = random(50,750);
-  raindrop7 = new BlueRaindrops(0,0,1,1);
-  raindrop7.x = random(50,750);
-  raindrop7.y = random(50,750);
-  raindrop8 = new OrangeRaindrops(0,0,1,1);
-  raindrop8.x = random(50,750);
-  raindrop8.y = random(50,750);
+  raindrop1 = new GreenRaindrops(random(50,750),1,1);
+  raindrop2 = new RedRaindrops(random(50,750),1,1);
+  raindrop3 = new BlueRaindrops(random(50,750),1,1);
+  raindrop4 = new OrangeRaindrops(random(50,750),1,1);
+  raindrop5 = new GreenRaindrops(random(50,750),1,1);
+  raindrop6 = new RedRaindrops(random(50,750),1,1);
+  raindrop7 = new BlueRaindrops(random(50,750),1,1);
+  raindrop8 = new OrangeRaindrops(random(50,750),1,1);
 }
 
 function draw() {
