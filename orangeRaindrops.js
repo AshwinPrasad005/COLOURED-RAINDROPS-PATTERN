@@ -15,7 +15,7 @@ class OrangeRaindrops extends Raindrops{
                 tint(255,this.visibility);
             }
             imageMode(CENTER)
-            image(this.image,this.body.position.x,this.body.position.y,this.width,this.height);
+            image(this.image,0,0,this.width,this.height);
             push();
     }
 };

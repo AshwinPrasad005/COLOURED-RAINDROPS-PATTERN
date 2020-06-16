@@ -9,14 +9,14 @@ function setup() {
   var canvas = createCanvas(800,800);
   engine = Engine.create();
   world = engine.world;
-  raindrop1 = new GreenRaindrops(400,400,1,1);
-  raindrop2 = new RedRaindrops(random(50,750),random(50,750),1,1);
-  raindrop3 = new BlueRaindrops(random(50,750),random(50,750),1,1);
-  raindrop4 = new OrangeRaindrops(random(50,750),random(50,750),1,1);
-  raindrop5 = new GreenRaindrops(random(50,750),random(50,750),1,1);
-  raindrop6 = new RedRaindrops(random(50,750),random(50,750),1,1);
-  raindrop7 = new BlueRaindrops(random(50,750),random(50,750),1,1);
-  raindrop8 = new OrangeRaindrops(random(50,750),random(50,750),1,1);
+  raindrop1 = new GreenRaindrops(random(200,400),random(200,400),1,1);
+  raindrop2 = new RedRaindrops(random(200,400),random(200,400),1,1);
+  raindrop3 = new BlueRaindrops(random(200,400),random(200,400),1,1);
+  raindrop4 = new OrangeRaindrops(random(200,400),random(200,400),1,1);
+  raindrop5 = new GreenRaindrops(random(200,400),random(200,400),1,1);
+  raindrop6 = new RedRaindrops(random(200,400),random(200,400),1,1);
+  raindrop7 = new BlueRaindrops(random(200,400),random(200,400),1,1);
+  raindrop8 = new OrangeRaindrops(random(200,400),random(200,400),1,1);
 }
 
 function draw() {
