@@ -18,10 +18,8 @@ class Raindrops{
         pop();
         //translate(this.body.position.x,this.body.position.y);
         //rotate(angle);
-        if(this.body.y > 200){
-            this.visibility = this.visibility - 10;
-            tint(255,this.visibility);
-        }
+        this.visibility = this.visibility - 10;
+        tint(255,this.visibility);
         imageMode(CENTER);
         image(this.image,this.body.position.x,this.body.position.y,this.width,this.height);
         push();
